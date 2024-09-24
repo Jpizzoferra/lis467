@@ -1,0 +1,40 @@
+.parent{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.child{
+    flex-wrap:wrap;
+    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+div{
+    height: 100px;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#center{
+    flex-grow: 1;
+}
+
+#side{
+    flex-grow:2;
+}
